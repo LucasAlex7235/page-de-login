@@ -22,6 +22,7 @@
     font-family: var(--font-family);
 }
 
+<<<<<<< HEAD
 .form--forgot__password span {
     position: absolute;
     right: 0;
@@ -40,6 +41,8 @@
     font-weight: var(--title-weight);
     font-family: var(--font-family);
 }
+=======
+>>>>>>> feature/fix-login
 
 .form--footer p {
     color: var(--dark-gray);
@@ -47,13 +50,6 @@
     font-family: var(--font-family);
 }
 
-.form--footer span {
-    color: var(--dark-black);
-    font-weight: var(--title-weight);
-    cursor: pointer;
-    font-size: var(--text-1);
-    font-family: var(--font-family);
-}
 
 .modal--content h3{
     font-size: var(--title);
