@@ -31,7 +31,6 @@
     font-family: var(--font-family);
     cursor: pointer;
 }
-
 .submit {
     height: 35px;
     border-radius: 8px;
