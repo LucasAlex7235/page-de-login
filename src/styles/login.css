@@ -1,0 +1,122 @@
+
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ligth-gray);
+}
+
+.figure {
+    display: none;
+}
+
+.form {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+    border-radius: 8px;
+    background-color: var(--white);
+}
+
+.form header {
+    line-height: 200%;
+}
+
+
+.form--data {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.form--input {
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid var(--ligth-gray);
+    padding: 16px 10px;
+
+}
+
+.form--forgot__password {
+    position: relative;
+}
+
+
+.form--footer {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-wrapper {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal {
+    height: 250px;
+    border-radius: 8px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-color: var(--white);
+}
+
+.modal--content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.show__modal{
+    display: flex;
+}
+
+@media (min-width: 514px) {
+    .form {
+        width: 411px;
+
+    }
+    .modal{
+        width: 390px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .modal{
+        width: 500px;
+    }
+
+    .figure {
+        display: flex;
+        height: 572px;
+    }
+
+    .figure img {
+        border-radius: 8px;
+    }
+
+    .form {
+        transform: translateX(-20px);
+        width: 370px;
+        height: 572px;
+    }
+
+}
